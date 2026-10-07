@@ -1384,25 +1384,45 @@ This project is available for educational and learning purposes.
 
 ## ⭐ Author
 
+- 
+## 👨‍💻 Author
+
+
 **### 🔗 Connect
 
+**SyedStackLab**
+*Aspiring Full-Stack Web Developer*
 - GitHub: `https://github.com/SyedMobinMian`
 - LinkedIn: `https://www.linkedin.com/in/syedalimian`
+I am a developer focused on strengthening my programming fundamentals by building practical projects and learning through hands-on development.
 
+### 🎯 Career & Learning Goals
+
+My goal is to become a strong **Full-Stack Web Developer** with a solid understanding of both frontend and backend development.
 I am currently focusing on:
 
-🟨 JavaScript — DOM, Events, ES6+, APIs, Async JavaScript and modern JavaScript development
-⚛️ React.js — Component-based frontend development
-🟢 Node.js — Backend development with JavaScript
-🐘 PHP — Server-side development
-🔥 Laravel — Modern PHP web application development
-🗄️ MySQL — Database design and SQL
-🐍 Python — Programming, automation and future AI/ML development
-🤖 AI & Machine Learning — Future learning and project development
-- 
-**JavaScript Practice Playground**
+* 🟨 **JavaScript** — DOM, Events, ES6+, APIs, Async JavaScript and modern JavaScript development
+* ⚛️ **React.js** — Component-based frontend development
+* 🟢 **Node.js** — Backend development with JavaScript
+* 🐘 **PHP** — Server-side development
+* 🔥 **Laravel** — Modern PHP web application development
+* 🗄️ **MySQL** — Database design and SQL
+* 🐍 **Python** — Programming, automation and future AI/ML development
+* 🤖 **AI & Machine Learning** — Future learning and project development
 
-Built as part of a journey to improve **JavaScript fundamentals and practical web development skills**.
+### 💡 Development Philosophy
+
+> **Learn the fundamentals → Build projects → Understand the logic → Improve → Build again.**
+I prefer learning by building practical projects rather than relying only on theoretical knowledge.
+This repository is part of that journey, with a particular focus on understanding **JavaScript fundamentals through small, practical projects**.
+
+
+
+### 🚀 Ambition
+
+My long-term goal is to build reliable, secure and maintainable web applications while continuously improving my programming fundamentals and understanding how modern web technologies work together.
+
+This repository represents one step in that journey.
 
 ---
 
