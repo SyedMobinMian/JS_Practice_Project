@@ -1,0 +1,258 @@
+:root {
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-color: #f8fafc;
+    --accent-color: #38bdf8;
+    --accent-hover: #0ea5e9;
+    --border-color: #334155;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    transition: background-color 0.3s ease;
+    /* Useful if color changer affects body */
+}
+
+/* header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        } */
+header {
+    text-align: left;
+    transform: rotate(-7deg);
+    transform-origin: top left;
+    display: inline-block;
+    background-color: rgba(30, 41, 59, 0.6);
+    padding: 1.5rem 1.25rem;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 8px;
+    backdrop-filter: blur(9px);
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 1.1rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.project-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-bottom: 1rem;
+}
+
+/* --- Common UI elements for projects --- */
+button.submit-btn {
+    background-color: var(--accent-color);
+    color: #0f172a;
+    font-weight: 600;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 1rem;
+}
+
+button.submit-btn:hover {
+    background-color: var(--accent-hover);
+}
+
+input {
+    background-color: #0f172a;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 0.6rem;
+    border-radius: 6px;
+    margin: 0.25rem 0;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+label {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-top: 0.5rem;
+}
+
+/* --- Project Specific Styles --- */
+
+/* 1. Color Changer Styles */
+.color-buttons-container {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.color-btn {
+    width: 95px;
+    height: 95px;
+    border-radius: 10px;
+    /* Square box with slightly rounded corners */
+    border: 2px solid var(--border-color);
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.color-btn:hover {
+    transform: scale(1.05);
+}
+
+#red {
+    background-color: #ef4444;
+}
+
+#green {
+    background-color: #22c55e;
+}
+
+#blue {
+    background-color: #3b82f6;
+}
+
+#yellow {
+    background-color: #eab308;
+}
+
+#purple {
+    background-color: #a855f7;
+}
+
+#reset {
+    background-color: #0f172a;
+}
+
+/* 2. Digital Clock Styles */
+.clock-display {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #0f172a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    color: var(--accent-color);
+    margin: auto 0;
+    border: 1px solid var(--border-color);
+}
+
+/* 3. BMI Generator Styles */
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#bmi-result {
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 4. Guess the Number Styles */
+.guess-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.guess-paras {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: #94a3b8;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+
+
+
+
+/* 
+        button {
+            background-color: var(--accent-color);
+            color: #0f172a;
+            font-weight: 600;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            margin: 0.25rem 0;
+        }
+
+        --- Project Specific Layouts ---
+
+        1. Color Changer
+        #color-changer-project {
+            transition: background-color 0.3s;
+        }
+        .color-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        .color-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid var(--border-color);
+            cursor: pointer;
+        } */

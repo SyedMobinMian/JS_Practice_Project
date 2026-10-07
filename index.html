@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            <pre>
+                JS Practice Playground
+            </pre>
+        </h1>
+        <p>Three classic JavaScript projects in one clean dashboard</p>
+    </header>
+    <div class="projects-grid">
+        <!-- Project 1: Color Changer -->
+        <div class="project-card" id="color-changer-project">
+            <h2>1. Color Changer</h2>
+            <p class="project-description">Click a square to change the theme color.</p>
+            <div class="color-buttons-container">
+                <div class="color-btn" id="red"></div>
+                <div class="color-btn" id="green"></div>
+                <div class="color-btn" id="blue"></div>
+                <div class="color-btn" id="yellow"></div>
+                <div class="color-btn" id="purple"></div>
+                <div class="color-btn" id="reset">Reset</div>
+            </div>
+        </div>
+        <!-- Project 2: BMI Generator -->
+        <div class="project-card">
+            <h2>3. BMI Calculator</h2>
+            <form class="bmi-form" id="bmi-form">
+                <label for="height">Height in CM:</label>
+                <input type="number" id="height" placeholder="e.g., 175">
+                <label for="weight">Weight in KG:</label>
+                <input type="number" id="weight" placeholder="e.g., 70">
+                <button type="submit" class="submit-btn">Calculate</button>
+                <div id="bmi-result"></div>
+                <br><br>
+                <div id="weight-guide">
+                    <h3>BMI weight Guide:</h3>
+                    <ul>
+                        <li>Underweight: BMI < 18.5</li>
+                        <li>Normal weight: BMI 18.5 - 24.9</li>
+                        <li>Overweight: BMI 25 - 29.9</li>
+                        <li>Obesity: BMI ≥ 30</li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <!-- Project 3: Digital Clock -->
+        <div class="project-card">
+            <h2>2. Digital Clock</h2>
+            <p class="project-description">Current live local time.</p>
+            <div id="clock" class="clock-display">00:00:00</div>
+        </div>
+        <!-- Project 4: Guess the Number -->
+        <!-- <div class="project-card">
+            <h2>4. Guess The Number</h2>
+            <form class="guess-form" id="guess-form">
+                <label for="guessField">Guess a number (1-100)</label>
+                <input type="text" id="guessField" class="guessField">
+                <button type="submit" id="subt" class="submit-btn">Submit Guess</button>
+                <div class="guess-paras">
+                    <p>Previous Guesses: <span class="guesses"></span></p>
+                    <p>Remaining Guesses: <span class="lastResult">10</span></p>
+                    <p class="lowOrHi"></p>
+                </div>
+            </form>
+        </div> -->
+    </div>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="./js/bmi.js"></script>
+    <script src="./js/colorChange.js"></script>
+    <script src="./js/digitalClock.js"></script>
+</body>
+
+</html>
