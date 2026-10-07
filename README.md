@@ -1384,6 +1384,22 @@ This project is available for educational and learning purposes.
 
 ## ⭐ Author
 
+**### 🔗 Connect
+
+- GitHub: `https://github.com/SyedMobinMian`
+- LinkedIn: `https://www.linkedin.com/in/syedalimian`
+
+I am currently focusing on:
+
+🟨 JavaScript — DOM, Events, ES6+, APIs, Async JavaScript and modern JavaScript development
+⚛️ React.js — Component-based frontend development
+🟢 Node.js — Backend development with JavaScript
+🐘 PHP — Server-side development
+🔥 Laravel — Modern PHP web application development
+🗄️ MySQL — Database design and SQL
+🐍 Python — Programming, automation and future AI/ML development
+🤖 AI & Machine Learning — Future learning and project development
+- 
 **JavaScript Practice Playground**
 
 Built as part of a journey to improve **JavaScript fundamentals and practical web development skills**.
